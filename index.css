@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+#header{
+    background-image: url('./images/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+}
+
+#search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchbar{
+    width: 70%;
+}
+
+#title{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#my-watchlist{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#watchlist-ref{
+    color: white;
+}
+
+.remove-button, .add-button {
+    background-color: transparent; /* No background for the button */
+    color: #212936; /* Dark text color */
+    border: none; /* Remove default button border */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 16px; /* Font size */
+    display: inline-flex; /* Align icon and text in a row */
+    align-items: center; /* Vertically align items */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 0; /* Remove any padding from the button */
+    margin-left: 0.5vh; /* Remove any margin from the button */
+  }
+  
+  .remove-icon, .add-icon {
+    background-color: #212936; /* Dark background for the circle */
+    color: #ffffff; /* White color for the minus sign */
+    border-radius: 50%; /* Circle shape */
+    display: inline-flex; /* Center the content inside */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 24px; /* Width of the circle */
+    height: 24px; /* Height of the circle */
+    margin-right: 8px; /* Space between the icon and text */
+    font-size: 18px; /* Font size for the minus symbol */
+    line-height: 1; /* Ensure icon is centered vertically */
+  }
